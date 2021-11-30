@@ -1,0 +1,47 @@
+.whole
+{
+  background-image: url(2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    height:100%;
+     
+}
+
+.card1
+{
+    flex: 1;
+   
+}
+.card2
+{
+    flex: 1;
+   
+}
+.card3
+{
+    flex: 1;
+}
+
+
+   .footer {
+    position:relative;
+    margin-top: 260px;
+    height: 180px;
+    bottom: 0%;
+   }
+
+  
+   
+@media (min-width:70rem)
+{
+  .main
+  {
+    flex-direction:row
+  }
+}

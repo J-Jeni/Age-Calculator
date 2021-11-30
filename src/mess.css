@@ -36,7 +36,13 @@
     bottom: 0%;
    }
 
-  
+.cake
+{
+  background-image: url(cake.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
    
 @media (min-width:70rem)
 {

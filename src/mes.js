@@ -67,10 +67,10 @@ function Mess() {
                         <div className="card1" style={{ flexDirection: "column", flexWrap: "wrap",display:"block" }} >
 
 
-                            <Card sx={{ borderRadius: "30px", marginLeft: "50px", marginTop: "50px", marginRight: "50px", marginBottom: "50px", height: "50vh" }} style={{ background: 'rgba(255,255,255,0.5)' }}>
-                                <div> <center> <Avatar sx={{ marginTop: "20px", fontSize: "60px", width: "80px", height: "80px", bgcolor: "#52006A" }}>{letter}</Avatar>
+                            <Card sx={{ borderRadius: "30px", marginLeft: "50px", marginTop: "50px", marginRight: "50px", marginBottom: "10px", height: "50vh" }} style={{ background: 'rgba(255,255,255,0.5)' }}>
+                                <div> <center> <Avatar sx={{ marginTop: "20px", fontSize: "60px", width: "80px", height: "80px",marginBottom:"20px", bgcolor: "#52006A" }}>{letter}</Avatar>
 
-                                    <Typography style={{ fontSize: "25px", color: "#52006A", fontWeight: "bold" }}>  Welcome {Name} </Typography></center></div>
+                                    <Typography style={{ fontSize: "25px", color: "#52006A", fontWeight: "bold",marginBottom:"20px" }}>  Welcome {Name} </Typography></center></div>
 
                                 <CardContent>
 
@@ -115,7 +115,7 @@ function Mess() {
 
                         </div>
                         <div className="card2" style={{ flexDirection: "column", flexWrap: "wrap",display:"block" }}  >
-                            <Card sx={{ borderRadius: "30px", marginLeft: "50px", marginTop: "50px", marginRight: "50px", marginBottom: "50px", height: "50vh" }} style={{ background: 'rgba(255,255,255,0.5)' }}>
+                            <Card sx={{ borderRadius: "30px", marginLeft: "50px", marginTop: "50px", marginRight: "50px", marginBottom: "10px", height: "50vh" }} style={{ background: 'rgba(255,255,255,0.5)' }}>
                                 <CardContent>
                                     <center><CakeTwoToneIcon style={{ marginTop: "20px", alignItems: "center", justifyContent: "center", fontSize: "100px", color: "FF005C" }} />
                                     </center>
@@ -171,8 +171,10 @@ function Mess() {
 
                     </div>
                     <div>
-                        <center><Button variant="contained" color="secondary" style={{ marginTop: "20px", fontSize: "20px", justifyContent: "center", alignItems: "center" }} onClick={() => navigate(-1)} >BACK</Button></center>
+                        <center><Button variant="contained" color="secondary" style={{ fontSize: "20px", justifyContent: "center", alignItems: "center" }} onClick={() => navigate(-1)} >BACK</Button></center>
+                    <center><div className="cake" style={{ width:"40vh",height:"30vh",marginTop:"15px", backgroundColor:"red"}}></div></center>
                     </div>
+
                 </div>
             </div>
         </Box>
